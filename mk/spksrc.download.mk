@@ -166,6 +166,7 @@ pkg-info.json:
 	@echo "  \"PKG_DIR\":\"$(PKG_DIR)\"," >> $@
 	@echo "  \"PKG_DOWNLOAD_METHOD\":\"$(PKG_DOWNLOAD_METHOD)\"," >> $@
 	@echo "  \"PKG_GIT_HASH\":\"$(PKG_GIT_HASH)\"," >> $@
+	@echo "  \"URLS\":\"$(URLS)\"," >> $@
 	@echo "  \"DEPENDS\":\"$(DEPENDS)\"" >> $@
 	@echo "}" >> $@
 
